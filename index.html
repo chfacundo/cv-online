@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Aaron Miller</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <script defer src="https://kit.fontawesome.com/7830592094.js" crossorigin="anonymous"></script>
+        <script defer src="script.js"></script>
+    </head>
+
+    <body>
+        <div class="page-wrapper">
+
+            <!-- Datos personales -->  
+            <aside>
+                <div class="aside-wrapper">
+                        <!--- Encabezado-->
+                        <div class="personal-info-header">
+                            <div class="pi-header-content">
+                                <div class="resume-picture" >
+                                    <img src="https://randomuser.me/api/portraits/men/75.jpg" id="photo1"
+                                    alt="Foto de currículum" />
+                                </div>
+                            
+                                <div class="name-role">
+                                    <h1>Aaron Miller</h1>
+                                    <h2>Desarrollador web</h2>
+                                </div>
+                            </div>
+                        </div>
+            
+                    <!--Información-->
+                    <div class="personal-info-body">
+                        <div class="contact">
+                            <ul>
+                                <li id="email"><i class="fa-sharp fa-solid fa-envelope"></i>contact@aaronmiller.com</li>
+                                <li id="phone"><i class="fa-solid fa-phone"></i>(272) 790-0888</li>
+                                <li id="website"><i class="fa-solid fa-globe"></i><a href="https://aaronmiller.com">aaronmiller.com</a></li>
+                                <li id="linkedin"><i class="fa-brands fa-linkedin-in"></i><a href="https://linkedin.com/in/aaronmiller">aaronmiller</a></li>
+                                <li id="github"><i class="fa-brands fa-github"></i><a href="https://github/aaronmiller79">aaroonmiller79</a></li>
+                            </ul>
+                        </div>
+                        <div class="education">
+                            <h3>EDUCACION</h3>
+                            <ul>
+                            <li><h3>Ingeniería en sistemas</h3>
+                            <p>Universidad Tecnológica Nacional</p></li>
+                        
+                            <li><h3>Desarrollador Web Full stack</h3>
+                            <p>Ticmas</p></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="languages">
+                        <h3>IDIOMAS</h3>
+                        <ul>
+                            <li><p>Inglés <span>(intermedio)</span></p></li>
+                            <li><p>Portugués <span>(intermedio)</span></p></li>
+                        </ul>                        
+                    </div>
+                </div>
+            </aside>
+
+        <main>
+            <!-- Cuerpo del currículum-->
+            <article>
+                <div class="resume-body">
+                    <h2><i class="fa-solid fa-user"></i>PERFIL PROFESIONAL</h2>
+                    <p>Dedicado a la creación de aplicaciones web. Trabajador en equipo. Analítico y creativo. Especializado en el uso de React.js y Python (Django)</p>
+                </div>
+
+                <div class="resume-body experience">
+                    <h2><i class="fa-solid fa-briefcase"></i>EXPERIENCIA</h2>
+                    <ul>
+                        <li>
+                            <h3>Full stack developer</h3>
+                            <h4>Botsford Ltd</h4>
+                            <p class="xp-description">Desarrollo de sistemas de gestión web para empresas del rubro financiero con Django. Construcción de interfaces de usuario para clientes con React.js, SASS y Tailwind.
+                            </p>
+                        </li>
+
+                        <li>
+                            <h3>Front End developer</h3>
+                            <h4>Koepp Group</h4>
+                            <p class="xp-description">Desarrollo de páginas web para e-commerce y empresas. Maquetado web y desarrollo de aplicaciones móviles con React Native.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="resume-body">
+                    <h2><i class="fa-solid fa-screwdriver-wrench"></i>HABILIDADES</h2>
+                    <ul class="skills">
+                        <li>
+                            <div class="skill-name"><i class="i-skill fa-brands fa-square-js"></i>
+                                    <h5>Javascript/Typescript</h5>
+                            </div>
+                                   <div class="proficiency-bar">
+                                        <div class="active" id="js-active"></div><div class="inactive" id="js-inactive"></div>
+                                   </div>
+                        </li>
+
+                        <li>
+                            <div class="skill-name"><i class="i-skill fa-brands fa-react"></i>
+                                <h5>React.js/React Native</h5>
+                            </div>
+                            
+                            <div class="proficiency-bar">
+                                    <div class="active" id="react-active"></div><div class="inactive" id="react-inactive"></div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="skill-name"><i class="i-skill fa-brands fa-python"></i>
+                                <h5>Python/Django</h5>
+                            </div>
+                                
+                            <div class="proficiency-bar">
+                                <div class="active" id="py-active"></div><div class="inactive" id="py-inactive"></div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="skill-name">
+                                <div class="html-i">
+                                    <i class="fa-brands fa-html5"></i><i class="fa-brands fa-css3-alt"></i>
+                                </div>
+
+                                <h5>HTML/CSS</h5>
+                            </div>
+                            
+                            <div class="proficiency-bar">
+                                <div class="active" id="HTML-active"></div><div class="inactive" id="HTML-inactive"></div>
+                            </div>
+                        </li>
+            
+                    </ul>
+
+                    
+                </div>
+            </article>
+            
+            </main>
+        </div>
+
+        <div class="clicked-image" id="clicked-image">
+            <div class="active-image">
+                <img src="https://randomuser.me/api/portraits/men/75.jpg"
+                        alt="Foto de currículum" />
+            </div>
+            <div class="close-button" #id="">
+                <i class="fa-solid fa-square-xmark" id="close-button"></i>
+            </div>
+        </div>
+    </body>
+</html>
