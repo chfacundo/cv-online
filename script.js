@@ -23,8 +23,7 @@ document.getElementById("open-close-info").onclick = function rollUnroll() {
 
         //girar botón
         document.getElementById("open-close-info").removeAttribute("class")
-        document.getElementById("open-close-info").className = "button-up"
-        document.getElementById("open-close-info").className = "open-close-info"
+        document.getElementById("open-close-info").className = "open-close-info button-down"
 
     } else {
 
@@ -36,7 +35,7 @@ document.getElementById("open-close-info").onclick = function rollUnroll() {
 
         //girar-botón 
         document.getElementById("open-close-info").removeAttribute("class")
-        document.getElementById("open-close-info").className = "button-down"
-        document.getElementById("open-close-info").className = "open-close-info"
+        document.getElementById("open-close-info").className = "open-close-info button-up"
+
     }
 }
